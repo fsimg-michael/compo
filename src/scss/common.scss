@@ -1,0 +1,11 @@
+@use 'global/variables' as *;
+@use 'foundation/reset';
+@use 'foundation/base';
+
+nav {
+ ul {
+  li {
+   padding: 1rem;
+  }
+ }
+}

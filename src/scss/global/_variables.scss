@@ -1,0 +1,30 @@
+// breakpoints
+$xl: 1440px;
+$sp: 768px;
+$pc: 769px;
+
+// colors
+$text: #010101;
+$error: #e60013;
+
+// fonts 
+$noto: 'Noto Sans JP', sans-serif;
+
+// mixins
+@mixin xl {
+ @media only screen and (max-width: $xl) {
+  @content;
+ }
+}
+
+@mixin pc {
+ @media only screen and (min-width: $pc) {
+  @content;
+ }
+}
+
+@mixin sp {
+ @media only screen and (max-width: $sp) {
+  @content;
+ }
+}

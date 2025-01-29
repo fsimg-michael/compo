@@ -1,0 +1,37 @@
+assets/css/
+assets/js/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore node modules and dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Ignore build artifacts
+/dist/
+/build/
+
+# Ignore environment variables
+.env
+.env.local
+
+# Ignore logs
+logs/
+*.log
+
+# Ignore WordPress specific files
+wp-config.php
+wp-content/uploads/
+
+# Ignore IDE/editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore Mac system files
+*.swp
+*.swo

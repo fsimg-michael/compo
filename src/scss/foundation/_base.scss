@@ -1,0 +1,40 @@
+@use '../global/variables' as *;
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	color: $text;
+	font-family: $noto;
+	font-weight: 400;
+	font-size: 1.6rem;
+	line-height: normal;
+	letter-spacing: normal;
+	// font-feature-settings: 'palt';
+	// -webkit-font-smoothing: antialiased;
+	// -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+	color: inherit;
+}
+
+img {
+	max-width: 100%;
+	width: auto;
+	height: auto;
+	display: block;
+}
+
+.pc {
+	@include sp {
+		display: none;
+	}
+}
+
+.sp {
+	@include pc {
+		display: none;
+	}
+}
