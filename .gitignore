@@ -1,5 +1,5 @@
-assets/css/
-assets/js/
+assets/css/*
+assets/js/*
 
 # Ignore OS files
 .DS_Store
