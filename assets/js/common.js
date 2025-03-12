@@ -1,0 +1,1 @@
+"use strict";var domContentLoaded=function(){console.log("common.js")};document.addEventListener("DOMContentLoaded",domContentLoaded);
