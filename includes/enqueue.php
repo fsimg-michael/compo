@@ -9,7 +9,7 @@ function compo_enqueue()
 	wp_register_style("compo_single", get_theme_file_uri("/assets/css/single.css"));
 
 	// JS
-	wp_register_script("compo_gsap", "https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js", [], null, true);
+	// wp_register_script("compo_gsap", "https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js", [], null, true);
 	wp_register_script("compo_common", get_theme_file_uri("/assets/js/common.js"), [], null, true);
 	wp_register_script("compo_home", get_theme_file_uri("/assets/js/home.js"), [], null, true);
 
