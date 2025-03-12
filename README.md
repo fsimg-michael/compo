@@ -61,6 +61,7 @@ src/
   ├── js/                
   │   ├── common.js      # /assets/css/common.cssへ
   │   ├── home.js        # /assets/css/home.cssへ
+  │   ├── vendors        # プラグイン等
   ├── scss/              
   │   ├── foundation/    
   │   ├── global/        
